@@ -65,6 +65,7 @@ img {
 
 .link {
   text-decoration: none;
+  transition: color 250ms var(--transition-time-function);
 }
 
 .container {
@@ -416,6 +417,7 @@ img {
   align-items: center;
   border-radius: 50%;
   fill: var(--icon-text);
+  transition: fill 250ms var(--transition-time-function);
 }
 
 .team .social-item {
@@ -670,7 +672,6 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  min-height: 1024px;
   height: 100%;
   background-color: var(--modal-bcg-overlay-color);
 }
@@ -680,10 +681,10 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 528px;
-  width: 100%;
-  max-height: 581px;
-  height: 100%;
+  width: 528px;
+
+  height: 581px;
+
   padding: 8px;
   background-color: var(--primary-bcg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
